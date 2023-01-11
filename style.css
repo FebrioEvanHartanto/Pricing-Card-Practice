@@ -1,0 +1,123 @@
+
+html{
+    box-sizing:border-box;
+    font-size: 16px;
+    font-family:"Karla", sans-serif;
+    
+}
+
+body{
+    padding:20px;
+    
+}
+
+
+*, *:before, *:after{
+    box-sizing:inherit;
+}
+
+h2,h4,p{
+    margin:0;
+}
+
+#card{
+    width:600px;
+    height:400px;
+    box-shadow: -2px 4px 29px 0px rgba(0,0,0,0.75);
+    border-radius:5px;
+    overflow:hidden;
+}
+
+#top-section{
+    width:100%;
+    height:45%;
+    padding:25px;
+    
+    
+}
+
+#bottom-section{
+    width:100%;
+    height:55%;
+    color:white;
+    
+}
+
+#bottom-left{
+    display:inline-block;
+    vertical-align:top;
+    width:50%;
+    height:100%;
+    background-color: hsl(179, 62%, 33%);
+    padding:25px;
+}
+
+#bottom-right{
+    display:inline-block;
+    vertical-align: top;
+    width:50%;
+    height:100%;
+    background-color: hsl(179, 62%, 43%);
+    padding:25px;
+}
+
+button{
+    background-color:hsl(71, 73%, 54%);
+    border:none;
+    color:White;
+    width:100%;
+    padding:10px;
+    border-radius:4px;
+}
+
+#top-section h2{
+    color:hsl(179, 62%, 33%);
+    margin-bottom:15px;
+}
+
+#top-section h4{
+    color:hsl(71, 73%, 54%);
+    margin-bottom:5px;
+    
+}
+
+#top-section p{
+    color:gray;
+    padding-top: 5px;
+    
+}
+
+
+#price-container{
+    margin-bottom:10px;
+}
+
+#price{
+    font-weight:700;
+    font-size:1.4rem;
+    display:inline;
+}
+
+#duration{
+    display:inline;
+    position:relative;
+    top:-3px;
+    color:lightgray;
+    font-size: 0.8rem;
+}
+
+#bottom-left h4, p{
+    margin-bottom:15px;
+}
+
+#bottom-right ul{
+    list-style: none;
+    font-size: 0.8rem;
+    padding:0;
+    opacity:0.8;
+}
+
+button:hover{
+    cursor:pointer;
+    background-color:#A9C42D;
+}
