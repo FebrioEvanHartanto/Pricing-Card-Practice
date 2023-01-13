@@ -121,3 +121,20 @@ button:hover{
     cursor:pointer;
     background-color:#A9C42D;
 }
+
+@media (max-width: 650px){
+
+    #bottom-right{
+        width:100%;
+        height:auto;
+        text-align: center;
+    }
+
+    #bottom-left, #card{
+        width:100%;
+        height:auto;
+    }
+
+   
+
+}
